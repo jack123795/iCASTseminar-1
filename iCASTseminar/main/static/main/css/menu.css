@@ -1,0 +1,81 @@
+#menu{  /*左邊按鈕*/  
+  float: middle;
+  padding:0;
+  background-color: #485463;
+}
+
+#aside{  /*左邊內文*/
+  background-color: #485463;
+  border-right: 2px solid #576979;
+  height: 100%;
+}
+
+li a#order{
+  margin:0 auto;
+  text-align:center;
+  display: block;          
+  text-decoration: none;
+  padding: 0.5em 0em;     
+  margin-bottom:0.8em;
+}
+
+li a#sys{
+  margin:0 auto;
+  text-align:center;
+  display: block;          
+  text-decoration: none;
+  padding: 0.5em 0em;     
+  margin-bottom:0.8em;	
+}
+
+.floatLeft {
+/*   float: left; */
+  display: none;
+}
+
+a#pull {
+  display: none;
+  height:34px;
+}
+
+#status{  /* 登出樣式 */
+/*  border-bottom:1px solid #FFFFFF;  */
+  text-decoration: underline;  
+}
+
+li{
+	list-style: none;
+}
+
+.jsHover{  /*被選中*/
+  color:#FFFFFF;
+  font-weight:500;
+  background-color: #6A7782;    
+}
+
+pre{
+  display:inline;		
+  padding:0 0 0.4em 0.2em;
+}
+
+li a {     
+  margin:0 auto;
+  text-align:center;
+  display: block;          
+  color:#DDDDDD;
+  text-decoration: none;
+  padding: 0.5em 0em;     
+  margin-bottom:0.8em;  
+}
+
+li a:hover{
+  color:#FFFFFF;
+  font-weight:500;
+  background-color: #6A7782;
+}
+
+li a:focus {
+  color:#FFF;
+  cursor:pointer;
+  background-color: #6A7782;
+} 

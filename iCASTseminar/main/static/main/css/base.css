@@ -1,0 +1,55 @@
+html,body {
+  margin:0;
+  padding:0;
+  background:#EFEFEF; 
+  height: 100%;
+}
+
+ul {
+  padding:0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none; 
+  color:#0000EE; 
+}
+
+a:hover {
+  color:#000000; 
+}
+
+div#container {
+  display: grid;
+  background:#EFEFEF;
+  grid-template-columns: 1fr 5fr;
+  height: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#aside {
+  float:left;
+/*border: 1px solid green; */
+}
+
+#content {   /*右邊內文*/
+/*   padding:0; */
+/*background: #F9F5FF; */
+  background:#EFEFEF;
+  padding-bottom: 100px;
+  float: center;
+/*border:1px solid #880000; */
+}
+
+

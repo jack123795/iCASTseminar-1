@@ -1,0 +1,42 @@
+<!doctype html>
+{% load static %}
+<html>
+<head>
+<title>The 12th International Conference on Awareness Science and Technology (iCAST 2023)</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{% static 'main/css/base.css' %}">
+<link rel="stylesheet" href="{% static 'main/css/menu.css' %}">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+{% block css %}
+{% endblock %}
+</head>
+<body>
+<from style="margin-right:0;align:center;">
+<div class="row" style="margin: 20px;">
+  <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+    <h3 class="text-info" style="text-align: center;font-weight: bold;color: #008080">The 12th International Conference on Awareness Science and Technology</h3>
+    <h3 class="text-info" style="text-align: center;font-weight: bold;color: #008080;margin:10px;padding:0px ">(iCAST 2023)</h3>
+    <h3 class="text-info" style="text-align: center;font-weight: bold"><span style="color: #c00000">2023 Coming Soon</span>, 
+    <span style="color: rgba(0,0,255,1)">Taichung, Taiwan</span></h3>
+  </div>
+</div>
+
+
+<hr style="background: #0563C1;border: 0; height: 3px;width: 80%">
+<br>
+<div id="container">
+  <div id="aside" style="float: left;margin: 0;width: 80%">
+    {% include 'main/menu.html' %}
+  </div> <!-- 左邊選擇鈕 -->
+  <div id="content" style="float: center;margin: 0;width: 100%">
+    {% block content %}
+    {% endblock %}
+  </div> <!-- 右邊內文 -->
+</div>
+{% block script %}
+{% endblock %}      
+</from>          
+</body>
+</html>

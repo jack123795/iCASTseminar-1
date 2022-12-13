@@ -15,7 +15,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iCASTseminar.settings')
 
 application = get_wsgi_application()
 
-from blog.settings import DEBUG
+from iCASTseminar.settings import DEBUG
 if not DEBUG: # Running on Heroku
     from dj_static import Cling
     application = Cling(get_wsgi_application())

@@ -17,6 +17,7 @@ urlpatterns = [
     path('KeynoteSpeakers/', views.KeynoteSpeakers, name='KeynoteSpeakers'),
     path('Sponsors/', views.Sponsors, name='Sponsors'),
     path('BestPaperAward/', views.BestPaperAward, name='BestPaperAward'),
+    path('PreviousConference/', views.PreviousConference, name='PreviousConference'),
     path('AboutChaoyangUniversityofTechnology/', views.AboutChaoyangUniversityofTechnology, name='AboutChaoyangUniversityofTechnology'),
     path('VenueAndAccommodation/', views.VenueAndAccommodation, name='VenueAndAccommodation'),
 ]

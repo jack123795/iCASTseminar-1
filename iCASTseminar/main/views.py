@@ -58,6 +58,10 @@ def BestPaperAward(request):
     context = {'like':'BestPaperAward'}
     return render(request, 'main/BestPaperAward.html', context)
 
+def PreviousConference(request):
+    context = {'like':'PreviousConference'}
+    return render(request, 'main/PreviousConference.html', context)
+
 def AboutChaoyangUniversityofTechnology(request):
     context = {'like':'AboutChaoyangUniversityofTechnology'}
     return render(request, 'main/AboutChaoyangUniversityofTechnology.html', context)

@@ -26,7 +26,7 @@ div#container {
   display: grid;
   background:#ffffff;
   grid-template-columns: 1fr 5fr;
-  height: 100%;
+  height: auto;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
@@ -44,11 +44,11 @@ div#container {
 }
 
 #content {   /*右邊內文*/
-/*   padding:0; */
+  padding:0; 
 /*background: #F9F5FF; */
   background:#ffffff;
-  padding-bottom: 100px;
   float: center;
+  height: 100%;
 /*border:1px solid #880000; */
 }
 
